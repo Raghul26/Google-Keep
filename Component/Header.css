@@ -1,0 +1,131 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header
+{
+    background-color: #f5bb0c;
+    width: 100%;
+    height: 45px;
+    box-shadow: 0px 0px 13px -9px #000;
+}
+.header_title
+{
+    display: flex;
+    padding-left: 19px;
+    padding-top: 9px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.header_title p
+{
+    padding-left: 9px;
+}
+.inputarea
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 19px;
+}
+.input
+{
+    width: 340px;
+    height: 50px;
+    padding: 19px;
+    border: none;
+    outline: none;
+    display: flex;
+}
+.addbutton
+{
+    margin-left: 280px;
+    margin-top: -9px;
+}
+.worknotescontent
+{
+    margin-left: 9px;
+}
+.deletebutton
+{
+    position: relative;
+    right: 0;
+    cursor: pointer;
+}
+.worknotes
+{
+    background-color: #fff;
+    width: 240px;
+    height: max-content;
+    padding: 9px;
+    border-radius: 4px;
+    margin-bottom: 19px;
+    color: #000;
+    box-shadow: 0px 0px 13px -9px #000;
+    float: left;
+    margin-left: 19px;
+}
+.worknotes_p
+{
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 9px;
+}
+.worknotes_p1
+{
+    width: 229px;
+    overflow-wrap: break-word;
+}
+.notecontent
+{
+    background-color: rgb(234, 234, 234);
+    height: 100vh;
+}
+.deletebtn
+{
+    background-color: #f5bb0c;
+    width: max-content;
+    float: right;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    margin-top: 9px;
+}
+input::placeholder
+{
+    font-size: 19px;
+}
+textarea::placeholder
+{
+    font-size: 15px;
+    color: #000;
+}
+.addbutton .MuiButtonBase-root
+{
+    width: 40px;
+    height: 40px;
+    background-color: #f5bb0c;
+    box-shadow: 0px 4px -19px 0px #000;
+}
+.addbutton .MuiButtonBase-root:hover
+{
+    background-color: #f5bb0c;
+    box-shadow: 0px 4px -19px 0px #000;
+}
+@media (min-width:320px) and (max-width:350px)
+{
+.input
+{
+    width: 300px;
+    height: 50px;
+    padding: 19px;
+    border: none;
+    outline: none;
+    display: flex;
+}
+}
